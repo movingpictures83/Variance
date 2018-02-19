@@ -36,8 +36,6 @@ class VariancePlugin:
           for j in range(len(self.ADJ[i])):
             sum += self.ADJ[i][j] #* self.n  # Trying Unnormalized
           average = float(sum) / len(self.ADJ[i])
-          #print "AVERAGE: ", average
-          #print "LENGTH: ",len(self.ADJ[i])
           for j in range(len(self.ADJ[i])):
             variance += (average - self.ADJ[i][j])**2#*self.n) ** 2
           variances.append((variance / len(self.ADJ[i]), self.bacteria[i])) 
