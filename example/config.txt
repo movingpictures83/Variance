@@ -1,0 +1,2 @@
+Prefix plugins/Variance/example/
+Plugin Variance inputfile abund.csv outputfile abund.variance.txt
