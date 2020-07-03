@@ -2,7 +2,8 @@
 # Language: Python
 # Input: CSV (weights)
 # Output: TXT (variance in weights across rows)
-# Tested with: PluMA 1.0, Python 3.6
+# Tested with: PluMA 1.1, Python 3.6
+# Dependency: numpy==1.16.0
 
 PluMA plugin to compute variance.  The plugin takes as input a CSV
 file with rows representing samples and columns holding the datasets,
